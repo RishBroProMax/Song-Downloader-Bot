@@ -16,7 +16,8 @@ from Bot import LOGGER
 
 pm_start_text = """
 
-👋 Hello [{}](tg://user?id={}),\n\n I'm Boot Music Song Downloader Bot 🎵
+👋 Hello [{}](tg://user?id={}),\n\n I'm Song Downloader Bot
+
 
 ⚘ Just send me the song name you want to download.😋
 
@@ -26,7 +27,7 @@ pm_start_text = """
 
 **☇Powerd By Boot Music **
 
-
+**🧑‍💻 Devoloper - @ImRishmika**
 
 """
 
