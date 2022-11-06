@@ -1,0 +1,85 @@
+{
+
+    "name": "Emo Song Downloader",
+
+    "description": "A bot that can download songs.",
+
+
+
+    "keywords": [
+
+        "Emo Network",
+
+        "Song Downloader",
+
+        "Telegram Bot",
+
+        "song Bots"
+
+    ],
+
+    "website": "https://EmoBotDevolopers.lk",
+
+    "repository": "https://github.com/RishbroProMax",
+
+    "success_url": "https://t.me/EmoBotDevolopers",
+
+    "env": {
+
+        "BOT_TOKEN": {
+
+            "description": "Your Telegram Bot Token from @BotFather",
+
+            "value": ""
+
+        },
+
+        "API_HASH": {
+
+            "description": "Your API Hash from my.telegram.org",
+
+            "value": ""
+
+        },
+
+        "API_ID": {
+
+            "description": "Your APP ID from my.telegram.org",
+
+            "value": ""
+
+        }
+
+    },
+
+    "addons": [],
+
+    "buildpacks": [
+
+        {
+
+            "url": "heroku/python"
+
+        },
+
+        {
+
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+
+        }
+
+    ],
+
+    "formation": {
+
+        "worker": {
+
+            "quantity": 1,
+
+            "size": "free"
+
+        }
+
+    }
+
+}
