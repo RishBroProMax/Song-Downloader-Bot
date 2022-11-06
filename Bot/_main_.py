@@ -25,7 +25,7 @@ pm_start_text = """
 
       
 
-**☇Powerd By Boot Music **
+**☇Powerd By  </> ємσ вσт ∂єνσℓσρєʀѕ 🇱🇰**
 
 **🧑‍💻 Devoloper - @ImRishmika**
 
@@ -65,7 +65,14 @@ async def start(client, message):
 
                  InlineKeyboardButton(
 
-                        text="🇱🇰 Owner", url="https://t.me/Boot_Music_Official"
+                        text="🇱🇰 Owner", url="https://t.me/ImRishmika"
+
+                    )
+
+                ],
+                   InlineKeyboardButton(
+
+                        text="🔥 Youtube 🔥", url="https://youtube.com/@Rish_Bro"
 
                     )
 
