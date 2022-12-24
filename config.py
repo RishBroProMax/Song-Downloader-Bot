@@ -1,9 +1,15 @@
-#Uvindu Bro <https://t.me/UvinduBro>
-
 import os
+from os import environ
+from os import getenv
 
-API_ID = int(os.getenv("API_ID"))
-
-API_HASH = os.getenv("API_HASH")
-
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+# Fill This Var
+class Config(object):
+	APP_ID = int()
+	API_HASH = ""
+	BOT_TOKEN = ""
+	BOT_USERNAME = "TGYTMusicDownloader_Bot."
+	BOT_NAME = "Youtube Downloader Bot"
+	OWNER = int(5262156299)
+	LOG_GRP = int(-1001766852309)
+	GROUP = "EmoBotDevolopers"
+	MONGODB_URI = ""
