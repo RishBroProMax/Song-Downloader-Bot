@@ -1,6 +1,6 @@
 import logging
 from pyrogram import Client, idle
-import Config
+import config
 from pyrogram.errors import ApiIdInvalid, ApiIdPublishedFlood, AccessTokenInvalid
 
 
