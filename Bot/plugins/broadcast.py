@@ -8,7 +8,7 @@ from pyrogram.types import (Message, InlineQuery, InlineQueryResultArticle, Inli
                             InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery)
 
 from Bot import bot as app
-from Bot.database import (
+from Bot.helpers.database import (
     get_served_users,
     add_served_user,
     remove_served_user,
