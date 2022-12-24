@@ -5,7 +5,6 @@ aiohttp
 Pyrogram
 Tgcrypto
 asyncio
-os
 datetime
 time
 psutil
